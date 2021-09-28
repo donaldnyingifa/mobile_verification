@@ -1,0 +1,57 @@
+nav {
+  background-color: #301934;
+  width: 100%;
+}
+nav .brand-logo {
+  color: #000;
+  font-size: 1.5rem;
+}
+nav ul a {
+  font-size: 1rem;
+  color: #fff;
+}
+nav a {
+  color: #fff;
+}
+footer {
+  background-color: #301934;
+  color: #fff;
+  margin-top: auto;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+body {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  font-size: 20px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.box {
+  width: 100%;
+  max-width: 30%;
+  border: 1px solid red;
+  margin: 5px;
+}
+
+/* @media only screen and (max-width: 992px) nav .brand-logo {
+  color: #0f0f0f;
+  font-size: 0.5rem;
+} */
