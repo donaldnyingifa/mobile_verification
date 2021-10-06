@@ -15,7 +15,7 @@ session_start();
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Oyin</title>
+    <title>Donald Nyingifa</title>
 </head>
 <div class=" navbar-fixed">
     <nav class="z-depth-4">

@@ -1,6 +1,6 @@
 <!-- Footer -->
 <footer class=" z-depth-4 center">
-    <p class="flow-text">&copy; 2021 | Powered by Oyin </p>
+    <p class="flow-text">&copy; 2021 | Powered by Donald Nyingifa </p>
   </footer> 
 
 <!--Import jQuery before materialize.js-->
