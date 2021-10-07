@@ -2,6 +2,16 @@
 
 Mobile Verification application is an application that allows users who are looking to purchase a used phone to search for the ownership of the phone online using the IMEI number.
 
+# To login online
+
+As admin
+Email: john@gmail.com
+Password: 123
+
+As Regular User
+Email: jane@gmail.com
+Password: 123
+
 # To run app on local host
 
 Make sure you have PHP 7.3.11 or higher installed on your system.
