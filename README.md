@@ -2,6 +2,12 @@
 
 Mobile Verification application is an application that allows users who are looking to purchase a used phone to search for the ownership of the phone online using the IMEI number.
 
+# Sample IMEI to Search
+
+12341234 (REPORTED STOLEN)
+
+12345678
+
 # To login online
 
 https://mobilever123.000webhostapp.com/
