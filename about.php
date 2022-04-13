@@ -4,7 +4,7 @@ include_once 'header.php'
 
 <body>
 
-    <div class="container" style="width: 40vw;">
+    <div class="container" style="width: 40vw; height: 100%;">
         <h4 class="center" style="text-shadow: 1px 1px #301934;"> ABOUT </h4>
         <div class="row">
 
@@ -12,7 +12,7 @@ include_once 'header.php'
                 purchase used phones to search for the previous owner of a phone online using the IMEI number. </p>
 
             <p>The IMEI number can be checked in different ways depending on the type of phone. For most phones
-                it can be found in general settings but for phones where it is not available in the settings, instructions
+                it can be found in general settings or by dialing <strong>*#06#</strong> . This code should work on most phones but for phones where it is not available in the settings, instructions
                 can be found online. </p>
 
             <p>We are currently located at Niger Delta University which can easily be located with google maps.</p>
@@ -30,3 +30,6 @@ include_once 'header.php'
     <?php
     include_once 'footer.php'
     ?>
+
+
+</body>

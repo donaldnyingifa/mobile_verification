@@ -1,6 +1,12 @@
 <!-- Footer -->
-<footer class=" z-depth-4 center">
-    <p class="flow-text">&copy; 2021 | Powered by Donald Nyingifa </p>
+
+<?php
+include_once 'header.php'
+?>
+
+<body>
+<footer class="footer">
+    <p class="flow-text">&copy; 2021 | Powere by Donald Nyingifa </p>
   </footer> 
 
 <!--Import jQuery before materialize.js-->

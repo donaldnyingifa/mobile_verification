@@ -54,10 +54,15 @@ include_once 'header.php'
                 }
             }
             ?>
-
+            <section class="heading center">
+            <h2>Welcome to the mobile verification portal</h1>
+            </section>
+       
             <div class="center">
+
+           
                 <form action=" search.php" method="post">
-                    <input style="border: 3px solid #4fa79a; border-radius: 5px; " type="text" name="search_imei" value="" required placeholder="SEARCH IMEI " />
+                    <input style="border: 3px solid #4fa79a; border-radius: 5px; " type="text" name="search_imei" value="" required placeholder="Type your IMEI " />
                     <input class="btn" type="submit" name="submit" value="Submit" />
                 </form>
                 <?php

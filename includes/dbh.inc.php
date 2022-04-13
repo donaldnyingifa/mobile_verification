@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "oyinmobile";
+$dbname = "mobile";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);

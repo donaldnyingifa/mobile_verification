@@ -1,5 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html {
+  width: 100%;
+
+}
+
+body {
+ position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
 nav {
-  background-color: #adbe10;
+  background-color: #301934;
   width: 100%;
 }
 nav .brand-logo {
@@ -14,6 +36,10 @@ nav a {
   color: #fff;
 }
 footer {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
   background-color: #301934;
   color: #fff;
   margin-top: auto;
@@ -27,11 +53,7 @@ strong {
   font-size: 1.5rem;
 }
 
-body {
-  min-height: 90vh;
-  display: flex;
-  flex-direction: column;
-}
+
 
 p {
   font-size: 20px;
@@ -49,6 +71,22 @@ p {
   max-width: 30%;
   border: 1px solid red;
   margin: 5px;
+}
+
+
+.register-wrapper {
+  padding: 1% 0;
+}
+
+footer {
+  width: 100%;
+
+  text-align: center;
+  position: absolute;
+  left: 0;
+  bottom: -10%;
+  margin-top: 50%;
+  padding: 0;
 }
 
 /* @media only screen and (max-width: 992px) nav .brand-logo {

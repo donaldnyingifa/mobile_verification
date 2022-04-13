@@ -4,7 +4,7 @@ include_once 'header.php'
 
 <body>
 
-    <div class="container">
+    <div class="container register-wrapper">
         <h4 class="center" style="text-shadow: 2px 2px #301934;"> REGISTER </h4>
         <div class="row">
             <div class="col s3 ">
@@ -45,3 +45,5 @@ include_once 'header.php'
     <?php
     include_once 'footer.php'
     ?>
+
+</body>
