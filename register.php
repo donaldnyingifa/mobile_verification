@@ -5,18 +5,18 @@ include_once 'header.php'
 <body>
 
     <div class="container register-wrapper">
-        <h4 class="center" style="text-shadow: 2px 2px #301934;"> REGISTER </h4>
+        <h4 class="center header-text"> Create your account </h4>
         <div class="row">
             <div class="col s3 ">
             </div>
-            <div class="col s6 " style="padding: 5%; box-shadow: 10px 10px 25px 1px rgba(0,0,0,0.75);">
+            <div class="col s6 " style="padding: 5%; box-shadow: 10px 10px 12px 1px rgba(0,0,0,0.75); border-radius: 15px;">
                 <form action="includes/signup.inc.php" method="post">
                     <input type="text" name="firstname" value="" required placeholder="First Name" />
                     <input type="text" name="lastname" value="" required placeholder="Last Name" />
                     <input type="email" name="email" value="" required placeholder="Email" />
                     <input type="password" name="pwd" value="" required placeholder="Password" />
                     <input type="password" name="pwdrepeat" value="" required placeholder="Confirm Password" />
-                    <input class="btn " type="submit" name="submit" value="Submit" />
+                    <input class="btn" type="submit" name="submit" value="Submit" />
 
                 </form>
 

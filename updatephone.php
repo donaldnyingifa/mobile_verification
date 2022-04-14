@@ -55,7 +55,7 @@ include_once 'header.php'
                     $pic = './' . $pic;
                     echo "<img src=$pic alt='phone' width= '300vw' /><br/><br/>";
                     ?>
-                    <input class="btn" type="submit" name="update" value="Update" />
+                    <input class="btn-color" type="submit" name="update" value="Update" />
 
                 </form>
 

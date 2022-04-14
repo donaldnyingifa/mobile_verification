@@ -6,7 +6,7 @@ include_once 'header.php'
 
 <body>
 <footer class="footer">
-    <p class="flow-text">&copy; 2021 | Powere by Donald Nyingifa </p>
+    <p class="flow-text">&copy; 2021 | Powered by Donald Nyingifa </p>
   </footer> 
 
 <!--Import jQuery before materialize.js-->
@@ -21,4 +21,3 @@ include_once 'header.php'
   </script>
   </body>
 
-</html>

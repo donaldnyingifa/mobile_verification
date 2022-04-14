@@ -1,8 +1,11 @@
+
+<!-- <html> -->
+
 <?php
 include_once 'header.php'
 ?>
 
-<body>
+<body >
     <style>
         ::-webkit-input-placeholder {
             /* Edge */
@@ -18,15 +21,40 @@ include_once 'header.php'
             color: grey;
             text-align: center;
             font-size: 1.5rem;
-            font-weight: bold;
+
         }
     </style>
+       <section class="main-text-content">
+        <section class="heading center">
+            <h1 class="header-text">Welcome to the mobile verification portal</h1>
+        </section>
+        <!-- <p class="center text-paragraph">Fill in the IMEI number of your registered mobile device and click the search button. Details about your phone will be provided shortly after.</p> -->
 
-    <div class="container" style="width: 50vw;">
+        </section>
+    <div class="form-container" >
+
+        <div class="center form-wrapper">
+
+   
+              <form action=" search.php" method="post">
+                <input style="border: 2px solid #3019347a; border-radius: 12px; " type="text" name="search_imei" value="" required placeholder="Input your IMEI number " />
+                <input class="btn" type="submit" name="submit" value="Search" />
+            </form>
+            <?php
+            // Display error message
+            if (isset($_GET["error"])) {
+                if ($_GET["error"] == "invalidimei") {
+                    echo "<p>Invalid IMEI  </p>";
+                }
+                if ($_GET["error"] == "emptysearch") {
+                    echo "<p>Please type an IMEI ! </p>";
+                }
+            }
+            ?>
+        </div>
         <div class="row" style="display: flex;
                         flex-direction: column;
                         justify-content: center;
-                        min-height: 80vh;
                        ">
             <?php
             // Welcome message for logged in user
@@ -54,33 +82,12 @@ include_once 'header.php'
                 }
             }
             ?>
-            <section class="heading center">
-            <h2>Welcome to the mobile verification portal</h1>
-            </section>
-       
-            <div class="center">
-
-           
-                <form action=" search.php" method="post">
-                    <input style="border: 3px solid #4fa79a; border-radius: 5px; " type="text" name="search_imei" value="" required placeholder="Type your IMEI " />
-                    <input class="btn" type="submit" name="submit" value="Submit" />
-                </form>
-                <?php
-                // Display error message
-                if (isset($_GET["error"])) {
-                    if ($_GET["error"] == "invalidimei") {
-                        echo "<p>Invalid IMEI  </p>";
-                    }
-                    if ($_GET["error"] == "emptysearch") {
-                        echo "<p>Please type an IMEI ! </p>";
-                    }
-                }
-                ?>
-            </div>
-
         </div>
     </div>
 
     <?php
     include_once 'footer.php'
     ?>
+
+</body>
+</html>

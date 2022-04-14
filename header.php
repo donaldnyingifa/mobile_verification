@@ -5,6 +5,11 @@ session_start();
 <html lang="en">
 
 <head>
+    <!--Import Google Font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
@@ -17,8 +22,8 @@ session_start();
 
     <title>Donald Nyingifa</title>
 </head>
-<div class=" navbar-fixed">
-    <nav class="z-depth-4">
+<header class=" navbar-fixed">
+    <nav>
         <div class="container">
             <div class="nav-wrapper">
                 <a class="title" href="index.php">Mobile Verification Application</a>
@@ -66,7 +71,7 @@ session_start();
             </div>
         </div>
     </nav>
-</div>
+ </header>
 <ul class="side-nav" id="mobile-nav">
     <li>
         <a href="index.php">HOME</a>
